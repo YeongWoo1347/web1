@@ -1,3 +1,4 @@
+/* Control + Alt + C Color picker*/
 body {
   margin: 0;
 }
@@ -9,9 +10,13 @@ a {
 h1 {
   font-size: 45px;
   text-align: center;
-  border-bottom: 1px solid gray;
   margin: 0;
   padding: 20px;
+  border-bottom: 1px solid gray;
+}
+
+input {
+  float: right;
 }
 
 h2 {
@@ -60,6 +65,17 @@ div {
   }
 }
 
+#onoff{
+  background: black;
+  border: none;
+  color: white;
+  width:70px;
+  height: 50px;
+}
+#onoff:hover{
+  background-color: white;
+  color: black;
+}
 /*
 class= .className
 id= #.idName

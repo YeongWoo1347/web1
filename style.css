@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  margin: 0;
+  padding: 20px;
+}
+
+h2 {
+  margin: 0px;
+}
+
+ol {
+  width: 100px;
+  margin: 0;
+  padding: 20px;
+}
+
+div {
+  padding: 10px;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr;
+}
+
+#link {
+  font-size: 20px;
+}
+
+#content {
+  border-left: 1px solid gray;
+}
+
+@media (max-width:600px) {
+  #grid {
+    display: block;
+  }
+
+  #steps,
+  ol {
+    padding: 10px;
+  }
+
+  #content {
+    border-left: none;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+}
+
+/*
+class= .className
+id= #.idName
+*/

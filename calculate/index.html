@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <script src="cal.js"></script>
+
+  <table>
+    <tr>
+        <td colspan="4"><input type="text" id="sentense" style = "text-align:right;" readonly> </td>
+    </tr>
+    <tr>
+        <td colspan="4"><input type="text" id="result" style = "text-align:right;" readonly> </td>
+    </tr>
+    <tr>
+      <td colspan="2"> <button type="button" id="clear" onclick="clickFunc(this)">clear</button></td>
+      <td> <button type="button" id="delete" onclick="clickFunc(this)"> < </button></td>
+      <td> <button type="button" id="op" onclick="clickFunc(this)">/</button></td>
+    </tr>
+    <tr>
+      <td><button type="button" id="num" onclick="clickFunc(this)">7</button></td>
+      <td><button type="button" id="num" onclick="clickFunc(this)">8</button></td>
+      <td><button type="button" id="num" onclick="clickFunc(this)">9</button></td>
+      <td><button type="button" id="op" onclick="clickFunc(this)">*</button></td>
+    </tr>
+    <tr>
+      <td><button type="button" id="num" onclick="clickFunc(this)">4</button></td>
+      <td><button type="button" id="num" onclick="clickFunc(this)">5</button></td>
+      <td><button type="button" id="num" onclick="clickFunc(this)">6</button></td>
+      <td><button type="button" id="op" onclick="clickFunc(this)">-</button></td>
+    </tr>
+    <tr>
+      <td><button type="button" id="num" onclick="clickFunc(this)">1</button></td>
+      <td><button type="button" id="num" onclick="clickFunc(this)">2</button></td>
+      <td><button type="button" id="num" onclick="clickFunc(this)">3</button></td>
+      <td><button type="button" id="op" onclick="clickFunc(this)">+</button></td>
+    </tr>
+    <tr>
+      <td><button type="button" id="bracket" onclick="clickFunc(this)">(</button></td>
+      <td><button type="button" id="num" onclick="clickFunc(this)">0</button></td>
+      <td><button type="button" id="num" onclick="clickFunc(this)">.</button></td>
+      <td><button type="button" id="op" onclick="clickFunc(this)">=</button></td>
+    </tr>
+  </table>
+</body>
+
+</html>
